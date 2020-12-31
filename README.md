@@ -38,3 +38,10 @@ change the serial port passed to the init function while initializing serial int
 If using Beaglebone Black, enable UART1 in /boot/uEnv.txt. Make sure to use 
 the correct line for your version of the Linux Kernel.
 
+**
+To compile the library use the following commands:
+
+cd VESC_Embedded_Linux/
+cmake .
+make
+**
