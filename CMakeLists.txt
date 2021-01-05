@@ -19,7 +19,6 @@ file(GLOB src_cpp_files "bldc.cpp"
 include_directories(${CMAKE_CURRENT_SOURCE_DIR}/*.h)
 
 #add system related flags
-add_definitions(-lrt)
 add_definitions(-std=c++11)
 add_definitions(-w)
 add_definitions(-fPIC)
